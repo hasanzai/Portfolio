@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicons/apple-touch-icon.png"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-row">
+          <img
+            src="./img/photo.jpg"
+            srcset="./img/photo@2x.jpg 2x"
+            alt="photo"
+            class="header-img"
+          />
+
+          <div class="header-desc">
+            <h1 class="header-title">Ibragim Khasanza</h1>
+            <h2 class="header-text">Freelancer, web-development<br /></h2>
+            <h3 class="header-text-description">
+              I specialize in website development, guiding projects from concept
+              to completion.<br /><br />My focus is on creating functional,
+              visually appealing websites that deliver an excellent user
+              experience, leveraging the latest technologies in web development.
+            </h3>
+
+            <div class="header-btns">
+              <a href="#portfolio" class="btn">Portfolio</a>
+              <a href="#contacts" class="btn-outline">Contacts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <video class="header-video" autoplay muted loop>
+        <source type="video/mp4" src="./videos/code.mp4">
+      </video>
+    </header>
+
+    <main>
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <h2 class="portfolio-title">Portfolio</h2>
+
+          <div class="projects">
+            <article class="project">
+              <a href="./panto.html">
+                <img
+                  src="./img/portfolio/project-01.jpg"
+                  srcset="./img/portfolio/project-01@2x.jpg 2x"
+                  alt="Furniture Store Website"
+                  class="project-img"
+                />
+              </a>
+              <h3 class="project-title">
+                <a href="./panto.html">Furniture Store Website</a>
+              </h3>
+            </article>
+
+            <article class="project">
+              <a href="./GoTravel.html">
+                <img
+                  src="./img/portfolio/project-02.jpg"
+                  srcset="./img/portfolio/project-02@2x.jpg 2x"
+                  alt="Travel Agency Website."
+                  class="project-img"
+                />
+              </a>
+              <h3 class="project-title">
+                <a href="./GoTravel.html">Travel Agency Website.</a>
+              </h3>
+            </article>
+
+            <article class="project">
+              <a href="./LoftHouse.html">
+                <img
+                  src="./img/portfolio/project-03.jpg"
+                  srcset="./img/portfolio/project-03@2x.jpg 2x"
+                  alt="Residential Complex Website"
+                  class="project-img"
+                />
+              </a>
+              <h3 class="project-title">
+                <a href="./LoftHouse.html">Residential Complex Website</a>
+              </h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <h2 class="contacts-title">Contacts</h2>
+
+          <div class="messangers">
+            <a href="https://t.me/hasanzai" target="_blank" class="messanger">
+              <img src="./img/icons/telegram.svg" alt="Telegram" />
+              Message on Telegram</a
+            >
+
+            <a
+              href="https://wa.me/996508020240"
+              target="_blank"
+              class="messanger"
+            >
+              <img src="./img/icons/whatsapp.svg" alt="WhatsApp" />
+              Send on WhatsApp</a
+            >
+
+            <a href="#!" target="_blank" class="messanger">
+              <img src="./img/icons/vk.svg" alt="Вконтакте" />
+              Contact on VKontakte</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <p>
+            Ibragim Khasanza <br />
+            HTML, CSS and JavaScript developer
+          </p>
+          <p><a href="#!" target="_blank">Visit my website</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
