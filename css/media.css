@@ -62,8 +62,7 @@
     }
 
     .header-main-img {
-        max-width: fit-content;
-        max-height: fit-content;
+        object-fit: contain;
         border-radius: 40px;
         align-self: center;
     }
