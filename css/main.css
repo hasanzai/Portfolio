@@ -63,6 +63,12 @@ body {
     column-gap: 60px;
 }
 
+.header-main-img {
+    width: 600px;
+    height: 600px;
+    border-radius: 80px;
+}
+
 .header-img {
     border-radius: 80px;
 }
