@@ -5,7 +5,7 @@
     }
 
     .header-main-img {
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 40px;
         align-self: center;
     }
@@ -61,7 +61,7 @@
     }
 
     .header-main-img {
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 40px;
         align-self: center;
     }
